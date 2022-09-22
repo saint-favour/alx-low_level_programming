@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - concatenates two strings using at most an inputted
+ * _strncat - concatenates two strings using at most an inputted.
  * @dest: the string to be appended upon.
  * @src: the string to be appended to dest.
  * @n: the number of btes from src to be appended to dest.
@@ -20,3 +20,4 @@ char *_strncat(char *dest, char *src, int n)
 		dest[dest_len++] = src[index];
 
 	return (dest);
+}
