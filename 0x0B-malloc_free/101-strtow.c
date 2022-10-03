@@ -30,7 +30,7 @@ return (len);
 * @str: The string to be searched.
 *
 *
-Returned: the number of words contained in a str.
+Return: The number of words contained in a str.
 */
 
 int count_words(char *str)
