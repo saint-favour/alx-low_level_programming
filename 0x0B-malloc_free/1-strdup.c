@@ -13,7 +13,7 @@ int _strlen(char *s)
 
     while (s[i] != '\0')
     {
-        i++
+        i++;
     }
 
     return (i);
@@ -33,7 +33,7 @@ char *_strcpy(char *dest, char *src)
     while (src[i] != '\0')
     {
         dest[i] =src[i];
-        i++
+        i++;
     }
     dest[1] = '\0';
 
@@ -58,7 +58,7 @@ char *_strdup(char *str)
 
     size = _strlen(str) + 1;
 
-    dest = (char *) malloc(size *sizeof(char));
+    dst = (char *) malloc(size *sizeof(char));
 
     if (dst == 0)
     {
