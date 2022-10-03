@@ -32,6 +32,7 @@ return (len);
 *
 Returned: the number of words contained in a str.
 */
+
 int count_words(char *str)
 {
 int index = 0, words = 0, len = 0;
