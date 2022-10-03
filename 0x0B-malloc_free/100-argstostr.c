@@ -2,8 +2,8 @@
 /**
 *argstostr - prints args.
 * @ac: tasks in width of grid.
-* @av: height of grid
-* Return: the args one line at a time 
+* @av: height of grid.
+* Return: the args one line at a time. 
 */
 
 char *argstostr(int ac, char **av)
@@ -12,7 +12,7 @@ char *str;
 int count = 0, a = 0, b = 0, c = 0;
 
 if (ac == 0 || av == NULL)
-return(NULL);
+return (NULL);
 while (a < ac)
 {
 b = 0;
